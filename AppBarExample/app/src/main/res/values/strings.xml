@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AppBarExample</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="action_add">Add</string>
+</resources>
