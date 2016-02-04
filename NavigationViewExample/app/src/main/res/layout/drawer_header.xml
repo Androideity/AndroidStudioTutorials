@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="172dp"
+    android:background="@drawable/drawer_background"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/status_bar_height"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <ImageView
+        android:id="@+id/avatar"
+        android:layout_width="@dimen/avatar_size"
+        android:layout_height="@dimen/avatar_size"
+        android:layout_margin="@dimen/margin_large"
+        android:src="@drawable/ic_placeholder_profile_white"/>
+    <TextView
+        android:id="@+id/label_email"
+        style="@style/LabelBase.Email"
+        android:layout_alignParentBottom="true"
+        android:text="@string/label_email"/>
+
+    <TextView
+        android:id="@+id/label_username"
+        style="@style/LabelBase"
+        android:layout_above="@id/label_email"
+        android:text="@string/label_username"/>
+
+</RelativeLayout>

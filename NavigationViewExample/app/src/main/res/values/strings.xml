@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">NavigationViewExample</string>
+    <string name="navigation_home">Home</string>
+    <string name="navigation_favorite">Favorites</string>
+    <string name="navigation_about">About</string>
+    <string name="navigation_record">Record</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="label_username">Condesa</string>
+    <string name="label_email">condesa@yourdomain.com</string>
+    <string name="navigation_subheader">Subheader</string>
+</resources>
