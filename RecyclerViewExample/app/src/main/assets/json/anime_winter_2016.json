@@ -1,0 +1,123 @@
+{
+  "animes": [{
+    "id": 1,
+    "title": "Boku dake ga Inai Machi",
+    "image": "http://cdn.myanimelist.net/images/anime/10/77957l.jpg",
+    "score": 9.04,
+    "episodes": 12,
+    "status": {
+      "id": 2,
+      "name": "Currently Airing"
+    },
+    "genres": [{
+      "id": 25,
+      "name": "Psychological"
+    }, {
+      "id": 30,
+      "name": "Seinen"
+    }, {
+      "id": 39,
+      "name": "Supernatural"
+    }]
+  }, {
+    "id": 2,
+    "title": "Durarara!!x2 Ketsu",
+    "image": "http://cdn.myanimelist.net/images/anime/6/77838l.jpg",
+    "score": 8.22,
+    "episodes": 12,
+    "status": {
+      "id": 2,
+      "name": "Currently Airing"
+    },
+    "genres": [{
+      "id": 1,
+      "name": "Action"
+    }, {
+      "id": 22,
+      "name": "Mystery"
+    }, {
+      "id": 39,
+      "name": "Supernatural"
+    }]
+  }, {
+    "id": 3,
+    "title": "Gate: Jieitai Kanochi nite, Kaku Tatakaeri 2nd Season",
+    "image": "http://cdn.myanimelist.net/images/anime/8/77382l.jpg",
+    "score": 8.15,
+    "episodes": 12,
+    "status": {
+      "id": 2,
+      "name": "Currently Airing"
+    },
+    "genres": [{
+      "id": 1,
+      "name": "Action"
+    }, {
+      "id": 2,
+      "name": "Adventure"
+    }, {
+      "id": 9,
+      "name": "Fantasy"
+    }, {
+      "id": 20,
+      "name": "Military"
+    }]
+  }, {
+    "id": 4,
+    "title": "Ansatsu Kyoushitsu (TV) 2nd Season",
+    "image": "http://cdn.myanimelist.net/images/anime/8/77966l.jpg",
+    "score": 8.11,
+    "episodes": 25,
+    "status": {
+      "id": 2,
+      "name": "Currently Airing"
+    },
+    "genres": [{
+      "id": 1,
+      "name": "Action"
+    }, {
+      "id": 4,
+      "name": "Comedy"
+    }, {
+      "id": 28,
+      "name": "School"
+    }, {
+      "id": 33,
+      "name": "Shounen"
+    }]
+  }, {
+    "id": 5,
+    "title": "Shouwa Genroku Rakugo Shinjuu",
+    "image": "http://cdn.myanimelist.net/images/anime/2/77907l.jpg",
+    "score": 8.04,
+    "episodes": 13,
+    "status": {
+      "id": 2,
+      "name": "Currently Airing"
+    },
+    "genres": [{
+      "id": 7,
+      "name": "Drama"
+    }, {
+      "id": 15,
+      "name": "Josei"
+    }]
+  }, {
+    "id": 6,
+    "title": "Dimension W",
+    "image": "http://cdn.myanimelist.net/images/anime/10/74938l.jpg",
+    "score": 7.73,
+    "episodes": 12,
+    "status": {
+      "id": 2,
+      "name": "Currently Airing"
+    },
+    "genres": [{
+      "id": 29,
+      "name": "Sci-Fi"
+    }, {
+      "id": 30,
+      "name": "Seinen"
+    }]
+  }]
+}
