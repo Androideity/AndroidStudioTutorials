@@ -1,6 +1,7 @@
 package com.androideity.recyclerviewexample;
 
 import android.os.Bundle;
+import android.support.design.widget.CoordinatorLayout;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
@@ -30,6 +31,7 @@ public class MainActivity extends AppCompatActivity implements AnimeAdapter.OnAn
 
     @Bind(R.id.toolbar) Toolbar toolbar;
     @Bind(R.id.recycler_view) RecyclerView recyclerView;
+    @Bind(R.id.coordinator_layout) CoordinatorLayout coordinatorLayout;
 
     private StaggeredGridLayoutManager staggeredGridLayoutManager;
     private List<Anime> animes;
@@ -74,6 +76,8 @@ public class MainActivity extends AppCompatActivity implements AnimeAdapter.OnAn
 
     @Override
     public void onAnimeClick(int animeId, String animeTitle) {
-
+        Snackbar.make(coordinatorLayout,
+                String.format("Item selected %s", animeTitle),
+                Snackbar.LENGTH_LONG).show();
     }
 }

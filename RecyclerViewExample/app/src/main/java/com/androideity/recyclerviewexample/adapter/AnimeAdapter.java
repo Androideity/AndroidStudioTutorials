@@ -86,6 +86,8 @@ public class AnimeAdapter extends RecyclerView.Adapter<AnimeAdapter.ViewHolder> 
         @Bind(R.id.label_genders) TextView labelGenders;
         @Bind(R.id.image_anime) ImageView imageAnime;
 
+        private Anime anime;
+
         public ViewHolder(View itemView) {
             super(itemView);
             ButterKnife.bind(this, itemView);
