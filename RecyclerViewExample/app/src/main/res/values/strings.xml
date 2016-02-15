@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">RecyclerViewExample</string>
     <string name="title_activity_main">AnimeReviews</string>
+    <string name="menu_show_as_list">Show as list</string>
+    <string name="menu_show_as_grid">Show as grid</string>
+    <string name="title_activity_detail">DetailActivity</string>
 </resources>

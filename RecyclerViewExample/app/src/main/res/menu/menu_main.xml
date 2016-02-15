@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".activities.MainActivity">
+
+    <item
+        android:id="@+id/action_list_visualization"
+        android:icon="@drawable/ic_action_grid"
+        app:showAsAction="always"
+        android:orderInCategory="100"
+        android:title="@string/menu_show_as_grid" />
+
+</menu>

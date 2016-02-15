@@ -2,7 +2,7 @@
   "animes": [{
     "id": 1,
     "title": "Boku dake ga Inai Machi",
-    "image": "http://cdn.myanimelist.net/images/anime/10/77957l.jpg",
+    "image": "https://dl.dropboxusercontent.com/u/12316307/androideity/boku_dake_ga_inai_machi.png",
     "score": 9.04,
     "episodes": 12,
     "status": {
@@ -22,7 +22,7 @@
   }, {
     "id": 2,
     "title": "Durarara!!x2 Ketsu",
-    "image": "http://cdn.myanimelist.net/images/anime/6/77838l.jpg",
+    "image": "https://dl.dropboxusercontent.com/u/12316307/androideity/durarara_ketsu.png",
     "score": 8.22,
     "episodes": 12,
     "status": {
@@ -42,7 +42,7 @@
   }, {
     "id": 3,
     "title": "Gate: Jieitai Kanochi nite, Kaku Tatakaeri 2nd Season",
-    "image": "http://cdn.myanimelist.net/images/anime/8/77382l.jpg",
+    "image": "https://dl.dropboxusercontent.com/u/12316307/androideity/gate.png",
     "score": 8.15,
     "episodes": 12,
     "status": {
@@ -65,7 +65,7 @@
   }, {
     "id": 4,
     "title": "Ansatsu Kyoushitsu (TV) 2nd Season",
-    "image": "http://cdn.myanimelist.net/images/anime/8/77966l.jpg",
+    "image": "https://dl.dropboxusercontent.com/u/12316307/androideity/ansatsu_kyoushitsu.png",
     "score": 8.11,
     "episodes": 25,
     "status": {
@@ -88,7 +88,7 @@
   }, {
     "id": 5,
     "title": "Shouwa Genroku Rakugo Shinjuu",
-    "image": "http://cdn.myanimelist.net/images/anime/2/77907l.jpg",
+    "image": "https://dl.dropboxusercontent.com/u/12316307/androideity/shouwa_genroku_rakugo_shinjuu.png",
     "score": 8.04,
     "episodes": 13,
     "status": {
@@ -105,7 +105,7 @@
   }, {
     "id": 6,
     "title": "Dimension W",
-    "image": "http://cdn.myanimelist.net/images/anime/10/74938l.jpg",
+    "image": "https://dl.dropboxusercontent.com/u/12316307/androideity/dimension_w.png",
     "score": 7.73,
     "episodes": 12,
     "status": {

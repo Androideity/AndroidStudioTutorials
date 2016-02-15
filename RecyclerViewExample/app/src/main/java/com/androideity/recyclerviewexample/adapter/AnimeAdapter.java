@@ -1,10 +1,7 @@
 package com.androideity.recyclerviewexample.adapter;
 
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentActivity;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -49,6 +46,7 @@ public class AnimeAdapter extends RecyclerView.Adapter<AnimeAdapter.ViewHolder> 
 
     @Override
     public void onBindViewHolder(ViewHolder holder, int position) {
+        final ViewHolder viewHolder = holder;
         final Anime anime = animes.get(position);
         Picasso.with(appCompatActivity.getApplicationContext())
                 .load(anime.image)
@@ -63,7 +61,7 @@ public class AnimeAdapter extends RecyclerView.Adapter<AnimeAdapter.ViewHolder> 
         holder.containerHolder.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                onAnimeSelected.onAnimeClick(anime.id, anime.title);
+                onAnimeSelected.onAnimeClick(anime, viewHolder.imageAnime);
             }
         });
     }
@@ -71,12 +69,12 @@ public class AnimeAdapter extends RecyclerView.Adapter<AnimeAdapter.ViewHolder> 
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View itemView = LayoutInflater.from(parent.getContext()).
-                inflate(R.layout.row_anime, parent, false);
+                inflate(R.layout.row_anime_v2, parent, false);
         return new ViewHolder(itemView);
     }
 
     public interface OnAnimeSelected {
-        void onAnimeClick(int animeId, String animeTitle);
+        void onAnimeClick(Anime anime, ImageView imageView);
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder {
@@ -85,8 +83,6 @@ public class AnimeAdapter extends RecyclerView.Adapter<AnimeAdapter.ViewHolder> 
         @Bind(R.id.label_title) TextView labelTitle;
         @Bind(R.id.label_genders) TextView labelGenders;
         @Bind(R.id.image_anime) ImageView imageAnime;
-
-        private Anime anime;
 
         public ViewHolder(View itemView) {
             super(itemView);

@@ -5,7 +5,8 @@ import android.support.v7.widget.RecyclerView;
 import android.view.View;
 
 /**
- * Created by Condesa on 07/02/16.
+ * Created by Suleiman on 26-07-2015.
+ * http://blog.grafixartist.com/pinterest-masonry-layout-staggered-grid/
  */
 public class SpacesItemDecoration extends RecyclerView.ItemDecoration {
 
