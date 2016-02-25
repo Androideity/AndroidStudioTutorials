@@ -1,0 +1,92 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="CoordinatorStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:fitsSystemWindows">true</item>
+    </style>
+
+    <style name="AppBarStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:theme">@style/AppTheme.AppBarOverlay</item>
+        <item name="android:fitsSystemWindows">true</item>
+    </style>
+
+    <style name="CollapsingToolbarLayoutStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="layout_scrollFlags">scroll|exitUntilCollapsed</item>
+        <item name="contentScrim">?attr/colorPrimary</item>
+        <item name="expandedTitleMarginStart">48dp</item>
+        <item name="expandedTitleMarginEnd">64dp</item>
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="expandedTitleTextAppearance">@style/ExpandedTitleColorStyle</item>
+    </style>
+
+    <style name="ExpandedTitleColorStyle">
+        <item name="android:textSize">@dimen/font_xxlarge</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="ToolbarCollapsingStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">?attr/actionBarSize</item>
+        <item name="popupTheme">@style/AppTheme.PopupOverlay</item>
+        <item name="layout_collapseMode">pin</item>
+    </style>
+
+    <style name="LabelCardContent">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/margin_xlarge</item>
+        <item name="android:textColor">@color/colorPrimaryText</item>
+        <item name="android:textSize">@dimen/font_medium</item>
+        <item name="android:text">@string/label_content_drawable</item>
+    </style>
+
+    <style name="ImageParallaxStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="layout_collapseMode">parallax</item>
+    </style>
+
+    <style name="CollapsingFabStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/fab_margin</item>
+        <item name="android:src">@drawable/ic_share_white_24dp</item>
+        <item name="borderWidth">0dp</item>
+        <item name="elevation">@dimen/default_elevation</item>
+        <item name="pressedTranslationZ">12dp</item>
+        <item name="rippleColor">@android:color/white</item>
+    </style>
+
+    <style name="LabelCardPalette">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/margin_large</item>
+        <item name="android:textColor">@color/colorPrimaryText</item>
+        <item name="android:textSize">@dimen/font_medium</item>
+    </style>
+
+</resources>

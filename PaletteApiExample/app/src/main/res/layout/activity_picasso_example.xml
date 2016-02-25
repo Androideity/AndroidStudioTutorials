@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/coordinator_layout"
+    style="@style/CoordinatorStyle">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/app_bar_layout"
+        style="@style/AppBarStyle">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/collapsing_toolbar"
+            style="@style/CollapsingToolbarLayoutStyle">
+
+            <com.androideity.paletteapiexample.widgets.SquareImageView
+                android:id="@+id/image_view_toolbar"
+                style="@style/ImageParallaxStyle"/>
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                style="@style/ToolbarCollapsingStyle" />
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_card" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floating_action_button"
+        style="@style/CollapsingFabStyle"
+        app:layout_anchor="@id/app_bar_layout"
+        app:layout_anchorGravity="bottom|right|end" />
+
+</android.support.design.widget.CoordinatorLayout>
