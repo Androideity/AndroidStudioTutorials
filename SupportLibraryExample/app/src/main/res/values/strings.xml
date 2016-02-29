@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">SupportLibraryExample</string>
+    <string name="action_settings">Settings</string>
+    <string name="label_support_library">Android Support Library 23.2</string>
+    <string name="label_androideity">androideity.com</string>
+    <string name="navigation_vector_drawable">Vector Drawable</string>
+    <string name="navigation_bottom_sheet">Bottom Sheet</string>
+    <string name="navigation_custom_tabs">Custom Tabs</string>
+
+    <string name="label_drag">Come on, drag me!</string>
+    <string name="button_show_as_dialog">Show as Dialog Example</string>
+    <string name="button_show_drag_sheet">Show as Drag Sheet Example</string>
+    <string name="label_title">Boku Dake ga Inai Machi</string>
+    <string name="label_content">The story follows Satoru Fujinuma, a man who possesses an ability that sends him back in time moments before a life-threatening incident, allowing him to prevent it from happening. When his mother is killed, Satoru\'s ability suddenly sends him back eighteen years to when he was still in elementary school, giving him the opportunity to prevent a kidnapping incident that took the lives of three of his classmates.</string>
+</resources>
